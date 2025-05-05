@@ -34,3 +34,5 @@ This document describes the processing of the `n2_featuresN.hdf5` file using Pyt
 **Purpose:**
 
 The processing steps outlined here were performed to make the data contained within the `n2_featuresN.hdf5` file more readily available for analysis. The conversion to CSV format allows for easier manipulation and exploration of the data using standard data analysis tools. The specific handling of the 3D coordinate data by storing it as JSON strings and the extraction of metadata from the `provenance_tracking` group were necessary to accommodate the structure of this HDF5 file. Visualizing the first few rows of each output CSV provides a quick check of the extraction process.
+
+
